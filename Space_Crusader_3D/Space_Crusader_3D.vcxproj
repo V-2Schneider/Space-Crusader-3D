@@ -74,7 +74,13 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>E:\Projekty\Space_Crusader_3D\Dependencies\glm;E:\Projekty\Space_Crusader_3D\Dependencies\glfw\include;E:\Projekty\Space_Crusader_3D\Dependencies\glew\include;E:\Projekty\Space_Crusader_3D\Header Files;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>E:\Projekty\Space_Crusader_3D\Dependencies\glfw\lib-vc2015;E:\Projekty\Space_Crusader_3D\Dependencies\glew\lib\Release\Win32</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;glew32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -90,10 +96,14 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>E:\Projekty\Space_Crusader_3D\Dependencies\glm;E:\Projekty\Space_Crusader_3D\Dependencies\glfw\include;E:\Projekty\Space_Crusader_3D\Dependencies\glew\include;E:\Projekty\Space_Crusader_3D\Header Files;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>E:\Projekty\Space_Crusader_3D\Dependencies\glfw\lib-vc2015;E:\Projekty\Space_Crusader_3D\Dependencies\glew\lib\Release\Win32</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;glew32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -110,7 +120,46 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Resource Files\cube.cpp" />
+    <ClCompile Include="..\Resource Files\detailed_cube.cpp" />
+    <ClCompile Include="..\Resource Files\model.cpp" />
+    <ClCompile Include="..\Resource Files\sphere.cpp" />
+    <ClCompile Include="..\Resource Files\teapot.cpp" />
+    <ClCompile Include="..\Resource Files\torus.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="lodepng.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Render.cpp" />
+    <ClCompile Include="shaderprogram.cpp" />
+    <ClCompile Include="Sound.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Header Files\allmodels.h" />
+    <ClInclude Include="..\Header Files\constants.h" />
+    <ClInclude Include="..\Header Files\cube.h" />
+    <ClInclude Include="..\Header Files\detailed_cube.h" />
+    <ClInclude Include="..\Header Files\lodepng.h" />
+    <ClInclude Include="..\Header Files\model.h" />
+    <ClInclude Include="..\Header Files\shaderprogram.h" />
+    <ClInclude Include="..\Header Files\sphere.h" />
+    <ClInclude Include="..\Header Files\teapot.h" />
+    <ClInclude Include="..\Header Files\torus.h" />
+    <ClInclude Include="Message_Bus.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\fshader.glsl" />
+    <None Include="Shaders\vshader.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\bricks2_diffuse.png" />
+    <Image Include="Textures\bricks2_height.png" />
+    <Image Include="Textures\bricks2_normal.png" />
+    <Image Include="Textures\bricks3b_diffuse.png" />
+    <Image Include="Textures\bricks3b_height.png" />
+    <Image Include="Textures\bricks3b_normal.png" />
+    <Image Include="Textures\bricks3b_specular.png" />
+    <Image Include="Textures\planeta.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
