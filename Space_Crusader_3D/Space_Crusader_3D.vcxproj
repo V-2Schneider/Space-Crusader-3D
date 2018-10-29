@@ -120,46 +120,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Resource Files\cube.cpp" />
-    <ClCompile Include="..\Resource Files\detailed_cube.cpp" />
-    <ClCompile Include="..\Resource Files\model.cpp" />
-    <ClCompile Include="..\Resource Files\sphere.cpp" />
-    <ClCompile Include="..\Resource Files\teapot.cpp" />
-    <ClCompile Include="..\Resource Files\torus.cpp" />
-    <ClCompile Include="Engine.cpp" />
-    <ClCompile Include="Input.cpp" />
     <ClCompile Include="lodepng.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Render.cpp" />
     <ClCompile Include="shaderprogram.cpp" />
-    <ClCompile Include="Sound.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Header Files\allmodels.h" />
     <ClInclude Include="..\Header Files\constants.h" />
-    <ClInclude Include="..\Header Files\cube.h" />
-    <ClInclude Include="..\Header Files\detailed_cube.h" />
     <ClInclude Include="..\Header Files\lodepng.h" />
-    <ClInclude Include="..\Header Files\model.h" />
     <ClInclude Include="..\Header Files\shaderprogram.h" />
-    <ClInclude Include="..\Header Files\sphere.h" />
-    <ClInclude Include="..\Header Files\teapot.h" />
-    <ClInclude Include="..\Header Files\torus.h" />
-    <ClInclude Include="Message_Bus.h" />
+    <ClInclude Include="..\Header Files\test.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\fshader.glsl" />
     <None Include="Shaders\vshader.glsl" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Textures\bricks2_diffuse.png" />
-    <Image Include="Textures\bricks2_height.png" />
-    <Image Include="Textures\bricks2_normal.png" />
-    <Image Include="Textures\bricks3b_diffuse.png" />
-    <Image Include="Textures\bricks3b_height.png" />
-    <Image Include="Textures\bricks3b_normal.png" />
-    <Image Include="Textures\bricks3b_specular.png" />
     <Image Include="Textures\planeta.png" />
+    <Image Include="Textures\planeta2.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

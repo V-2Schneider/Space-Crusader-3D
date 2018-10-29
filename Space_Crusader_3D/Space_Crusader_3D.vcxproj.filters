@@ -24,36 +24,6 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Resource Files\cube.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Resource Files\detailed_cube.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Resource Files\model.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Resource Files\sphere.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Resource Files\teapot.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Resource Files\torus.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Engine.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Input.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Render.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Sound.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="shaderprogram.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -62,28 +32,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Header Files\allmodels.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Header Files\constants.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Header Files\cube.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Header Files\detailed_cube.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Header Files\model.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Header Files\sphere.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Header Files\teapot.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Header Files\torus.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Header Files\shaderprogram.h">
@@ -92,7 +41,7 @@
     <ClInclude Include="..\Header Files\lodepng.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Message_Bus.h">
+    <ClInclude Include="..\Header Files\test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -105,28 +54,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Textures\bricks2_diffuse.png">
-      <Filter>Textures</Filter>
-    </Image>
-    <Image Include="Textures\bricks2_height.png">
-      <Filter>Textures</Filter>
-    </Image>
-    <Image Include="Textures\bricks2_normal.png">
-      <Filter>Textures</Filter>
-    </Image>
-    <Image Include="Textures\bricks3b_diffuse.png">
-      <Filter>Textures</Filter>
-    </Image>
-    <Image Include="Textures\bricks3b_height.png">
-      <Filter>Textures</Filter>
-    </Image>
-    <Image Include="Textures\bricks3b_normal.png">
-      <Filter>Textures</Filter>
-    </Image>
-    <Image Include="Textures\bricks3b_specular.png">
-      <Filter>Textures</Filter>
-    </Image>
     <Image Include="Textures\planeta.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\planeta2.png">
       <Filter>Textures</Filter>
     </Image>
   </ItemGroup>

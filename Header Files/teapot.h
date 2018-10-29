@@ -41,6 +41,12 @@ namespace Models {
 		extern float vertexNormals[];
 		extern float texCoords[];
 		extern float colors[];
+		extern float c1[];
+		extern float c2[];
+		extern float c3[];
+		extern float c1_2[];
+		extern float c2_2[];
+		extern float c3_2[];
 		extern unsigned int vertexCount;
 	} 
  
