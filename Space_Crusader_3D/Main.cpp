@@ -1,5 +1,3 @@
-
-
 #define GLM_FORCE_RADIANS
 #define GLM_FORCE_SWIZZLE
 
