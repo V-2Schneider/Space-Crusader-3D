@@ -129,6 +129,7 @@
     <ClInclude Include="..\Header Files\lodepng.h" />
     <ClInclude Include="..\Header Files\shaderprogram.h" />
     <ClInclude Include="..\Header Files\test.h" />
+    <ClInclude Include="Message.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\fshader.glsl" />

@@ -19,6 +19,12 @@
     <Filter Include="Textures">
       <UniqueIdentifier>{96287d6e-b655-4702-b057-0d9d06ec38ed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Communication">
+      <UniqueIdentifier>{bca11359-8315-4a47-88da-d47fe184b84b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Communication">
+      <UniqueIdentifier>{710564dd-bcdc-4cc5-ae13-3ea501d006a0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -43,6 +49,9 @@
     </ClInclude>
     <ClInclude Include="..\Header Files\test.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Header Files\Communication</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
